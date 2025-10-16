@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 1s ease-in;
+}
+
+main {
+    padding: 20px;
+}
+
+#hero img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    animation: fade
+}
